@@ -141,7 +141,7 @@ return (
 )
 ```
 
-**SVG note:** For SVG components, `x` and `y` are positional attributes distinct from `translateX` and `translateY`. Using the former will change the element's `x`/`y` attributes, while using the latter will set its `style.transform` property.
+**SVG note:** For SVG components, `x` and `y` are positional attributes distinct from `translateX` and `translateY`. Using the latter or the `x`/`y` translate shortcuts will set the component's `style.transform` property. To instead change the SVG `x`/`y` attributes, use `attrX`/`attrY`.
 
 ### Transform origin
 
